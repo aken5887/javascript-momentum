@@ -3,7 +3,7 @@ javascript study
 I made momentum
 
 1. Element
-  - document.getElementById = document.querySelector("#");
+  -- document.getElementById = document.querySelector("#");
   - document.getElememtByClassName : returns array
   - document.getElementByTagname : returns array  
   ** document.querySelector를 주로 사용
