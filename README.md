@@ -45,5 +45,6 @@ javascript study - nico / making momentum
 	- promise 타입의 인자를 return 
 	- promise 객체는 자바스크립트에서 제공하는, 비동기를 간편하게 처리할 수 있도록 도와주는 객체이다. 
 	  정해진 기능을 수행하고 나서 결과에 따라 성공이나 실패에 대한 정보를 return 한다.
-	- fetch(url).then(response => response.json())
-							.then(data => {});
+	- fetch(url, options).then(response => response.json()) // 자바스크립트 객체 형식으로 변환
+						.then(data => console.log("data : ", data))	
+						.catch((error) => console.log("error : ",errors));
